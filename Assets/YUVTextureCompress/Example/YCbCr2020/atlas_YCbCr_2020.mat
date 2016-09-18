@@ -1,0 +1,84 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: atlas_YCbCr_2020
+  m_Shader: {fileID: 4800000, guid: ed67ccc7a00a8a54f9d406b4292f8f53, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_CustomRenderQueue: 3000
+  stringTagMap: {}
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+      data:
+        first:
+          name: _MainTex
+        second:
+          m_Texture: {fileID: 2800000, guid: 2c7ff4120b72dd04f873f0443769ee7a, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _MainTexY
+        second:
+          m_Texture: {fileID: 2800000, guid: a73bf008fac3ba64a94aa1acdb79a5bb, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _MainTexU
+        second:
+          m_Texture: {fileID: 2800000, guid: 0f031b272020a8f45be722eaf120701e, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _MainTexV
+        second:
+          m_Texture: {fileID: 2800000, guid: 55e59b2d7660bb548bf63b71cf9b0c33, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _MainTexA
+        second:
+          m_Texture: {fileID: 2800000, guid: ab24bfbee09279c42a32085d4f6da269, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _MainTexH
+        second:
+          m_Texture: {fileID: 2800000, guid: 793b68bb7e11b8348b5033a537929a3e, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _MainTexS
+        second:
+          m_Texture: {fileID: 2800000, guid: 6fd3043a5d64d8f429150d4aa68f3131, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+    m_Floats:
+      data:
+        first:
+          name: _Wr
+        second: 0.2627
+      data:
+        first:
+          name: _Wb
+        second: 0.0593
+      data:
+        first:
+          name: _Umax
+        second: 0.5
+      data:
+        first:
+          name: _Vmax
+        second: 0.5
+    m_Colors: {}
